@@ -225,7 +225,7 @@
 }
 @media only screen and (max-width: 375px) {
   .container-1 img {
-    width: 60px;
+    width: 90px;
     left: 43%;
   }
   .container-1 h1 {
@@ -250,7 +250,7 @@
 }
 @media only screen and (max-width: 240px){
     .container-1 img {
-        width: 40px;
+        width: 90px;
         left: 43%;
       }
       .container-1 h1 {
