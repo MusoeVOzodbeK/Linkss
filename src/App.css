@@ -201,7 +201,7 @@
         font-size: 24px;;
     }
 }
-@media all and (max-width: 680px){
+@media all and (max-width: 999px){
     .links{
         left: 5%;
         grid-template-columns: repeat(2, 250px);
