@@ -265,6 +265,7 @@
       .links a i {
         font-size: 12px;
       }
+      
       .links {
         bottom: 200px;
         left: 3%;
@@ -272,4 +273,9 @@
         grid-template-rows: 40px 40px 40px 40px 40px;
         grid-template-columns: repeat(2, 150px);
       }
+}
+@media only screen and (max-height:656px){
+    .bgColor{
+        overflow: scroll;
+    }
 }
