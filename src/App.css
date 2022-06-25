@@ -209,24 +209,7 @@
     }
     .container-1 img{
         left: 38%;
-        width: 150px;
-    }
-    .container-1 h1{
-        font-size: 20px;
-    }
-    .container-1 .myknowledge > *{
-        font-size: 15px;
-    }
-    .bio{
-        font-size: 13px;
-    }
-    .links a i {
-        font-size: 24px;;
-    }
-}
-@media only screen and (max-width: 375px){
-    .container-1 img{
-        width: 80px;
+        width: 130px;
     }
     .container-1 h1{
         font-size: 18px;
@@ -235,7 +218,24 @@
         font-size: 14px;
     }
     .bio{
+        font-size: 11px;
+    }
+    .links a i {
+        font-size: 22px;;
+    }
+}
+@media only screen and (max-width: 375px){
+    .container-1 img{
+        width: 80px;
+    }
+    .container-1 h1{
+        font-size: 16px;
+    }
+    .container-1 .myknowledge > *{
         font-size: 13px;
+    }
+    .bio{
+        font-size: 12px;
     }
     .links a i {
         font-size: 20px;;
