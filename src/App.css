@@ -1,38 +1,233 @@
-.App {
+:root {
+  --font1: "PT Serif", serif;
+  --font2: "Tiro Devanagari Marathi", serif;
+}
+.container-1 img {
+  left: 43%;
+  margin-top: 15px;
+  position: relative;
+  width: 220px;
+  object-fit: cover;
+  transition: 0.5s;
+  border-radius: 50%;
+  box-shadow: 0px 0 10px rgb(63, 9, 9);
+}
+.container-1 img:hover{
+    transform: scale(1.1);
+    object-fit: fill;
+    box-shadow: 0 0 10px black,;
+    border: 2px 2px solid rgb(63, 9, 9);
+}
+.container-1 h1 {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-family: var(--font1);
+  margin-top: 15px;
+  font-size: 35px;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.container-1 .myknowledge > * {
+  line-height: 2;
+  padding: 5px;
+  text-decoration: underline;
+  font-weight: 400;
+  font-family: var(--font2);
+  color: white;
+  font-size: 25px;
+  box-sizing: 1px 1px 5px black;
+}
+.container-1 .myknowledge {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bgColor {
+    overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(360deg, #050303, #fc4754);
+}
+.bio {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: var(--font2);
+  font-size: 18px;
+  width: 80%;
+  color: white;
+}
+.links {
+    /* bottom: 200px; */
+  padding-bottom: 5px;
+  height: 50px;
+  margin-top: 15px;
+  position: absolute;
+  left: 27%;
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+  grid-template-rows: 60px 60px 60px 60px;
+}
+.links > * {
+  margin: 5px;
+  transition: 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 19px;
+  color: white;
+  border-radius: 15px;
+}
+.links a i {
+    font-size: 24px;
+  transform: translateX(-5px);
+}
+.links a:nth-child(1) {
+  background-color: #183153;
+}
+.links a:nth-child(1):hover {
+  color: #183153;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px #183153;
+  background-color: white;
+}
+.links a:nth-child(2) {
+  background-color: #0088cc;
+}
+.links a:nth-child(2):hover {
+  color: #0088cc;
+  background-color: white;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px #0088cc;
+}
+.links a:nth-child(3) {
+  background: linear-gradient(
+    45deg,
+    #405de6,
+    #5851db,
+    #833ab4,
+    #c13584,
+    #e1306c,
+    #fd1d1d
+  );
+}
+.links a:nth-child(3):hover {
+  transform: scale(1.1);
+  color: #e1306c;
+  background: white;
+  box-shadow: 0 0 10px #e1306c;
+}
+.links a:nth-child(4) {
+  background-color: #4267b2;
+}
+.links a:nth-child(4):hover {
+  color: #4267b2;
+  transform: scale(1.1);
+  background-color: white;
+  box-shadow: 0 0 10px #4267b2;
+}
+.links a:nth-child(5) {
+  background-color: #006192;
+}
+.links a:nth-child(5):hover {
+    color: #006192;
+    background-color: white;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #006192;
+}
+.links a:nth-child(6) {
+  background-image: linear-gradient(to right, #4285f4, #bb001b);
+}
+.links a:nth-child(6):hover {
+    color: #c13584;
+    background: white;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #4285f4;
+}
+.links a:nth-child(7) {
+  background-color: #171515;
+}
+.links a:nth-child(7):hover{
+    color: #171515;
+    background-color: white;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #171515;
+}
+.links a:nth-child(8) {
+  background-color: #205081;
+}
+.links a:nth-child(8):hover{
+    color: #205081;
+    background-color: white;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #205081;
+}
+.links a:nth-child(9) {
+  background-color: #1da1f2;
+}
+.links a:nth-child(9):hover{
+   color: #1da1f2;
+   background-color: white;
+   transform: scale(1.1);
+   box-shadow: 0 0 10px #1da1f2;
+
+}
+.links a:nth-child(10) {
+  background-color: #25d366;
+}
+.links a:nth-child(10):hover{
+    color: #25d366;
+    background-color: white;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #25d366;
+}
+@media all and (max-width: 1000px){
+    .bgColor{
+        width: calc(100%-15px);
+    }
+    .links{
+        grid-template-columns: repeat(2, 300px);
+    }
+}
+@media all and (max-width: 680px){
+    .links{
+        left: 5%;
+        grid-template-columns: repeat(2, 250px);
+        grid-template-rows: 60px 60px 60px 60px 60px;
+    }
+    .container-1 img{
+        left: 38%;
+        width: 150px;
+    }
+    .container-1 h1{
+        font-size: 20px;
+    }
+    .container-1 .myknowledge > *{
+        font-size: 15px;
+    }
+    .bio{
+        font-size: 13px;
+    }
+}
+@media all and (max-width: 375px){
+    .container-1 img{
+        width: 80px;
+    }
+    .container-1 h1{
+        font-size: 18px;
+    }
+    .container-1 .myknowledge > *{
+        font-size: 14px;
+    }
+    .bio{
+        font-size: 13px;
+    }
+        .links{
+            bottom: 200px;
+            left: 3%;
+            grid-template-rows: 40px 40px 40px 40px 40px ;
+            grid-template-columns: repeat(2, 150px);
+        }
 }
